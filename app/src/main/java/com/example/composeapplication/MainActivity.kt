@@ -148,6 +148,19 @@ fun LoginScreen() {
                     fontSize = 20.sp,
                     color = CustomBlue)
             }
+            Spacer(modifier = Modifier.height(16.dp))
+            Button(modifier = Modifier
+                .fillMaxWidth(),
+                shape = RoundedCornerShape(25),
+                colors = ButtonDefaults.buttonColors(Color.White),
+                border = BorderStroke(2.dp, Color.DarkGray),
+                onClick = {}
+            )
+            {
+                Text("Custom mode",
+                    fontSize = 20.sp,
+                    color = Color.DarkGray)
+            }
         }
     }
 }
