@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ComposeApplication</string>
+    <string name="title_activity_bike">BikeActivity</string>
+    <string name="title_activity_contact">ContactActivity</string>
+</resources>
